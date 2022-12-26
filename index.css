@@ -1,0 +1,79 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: red;
+}
+
+h1 {
+    margin-left: 40%;
+    color: yellow;
+    font-style: bold;
+    font-size: 38px;
+
+}
+
+label {
+    margin-left: 30%;
+    font-size: 20px;
+    color: aqua;
+    font-style: bold;
+}
+
+textarea {
+    margin-left: 10%;
+    color: green;
+    border: 5px solid yellow;
+}
+
+.container {
+    display: flex;
+    gap: 50px;
+    margin-left: 28%;
+    box-shadow: 2px 4px 15px black;
+    border: 2px solid white;
+    width: 650px;
+}
+
+h3 {
+    color: tan;
+    margin-left: 16%;
+}
+
+#posts {
+    width: 400px;
+}
+
+i {
+    cursor: pointer;
+    margin-left: 3px;
+}
+
+#posts div {
+    display: flex;
+    align-items: center;
+    margin-left: 14%;
+}
+
+/* .options {
+    display: flex;
+    gap: 25x;
+} */
+
+#msg {
+    color: rgb(165, 245, 7);
+}
+
+i:hover {
+    color: aliceblue;
+}
+
+button{
+    color: blue;
+}
+button:hover{
+    color: mediumspringgreen;
+    border: 2px solid white;
+    box-shadow: 0 0 10px blue;
+    background-color: transparent;
+}
